@@ -26,4 +26,12 @@ class Pin < ApplicationRecord
     @pin.save
   end
 
+  def self.send_newsletter
+    @user = User.all.to_a
+    @user.each do |u|
+      @pins = self.order('id ASC').limit(5)
+      Newsletter.letter(u, @pins).deliver
+    end
+  end
+
 end

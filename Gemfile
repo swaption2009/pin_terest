@@ -55,6 +55,7 @@ gem 'kaminari'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
 gem 'progress_bar'
+gem 'whenever', require: false
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-jQuery'
