@@ -54,6 +54,7 @@ gem 'rmagick'
 gem 'kaminari'
 
 source 'https://rails-assets.org' do
-  gem 'rails-assets-jQuery', source: 'https://rails-assets.org'
-  gem 'rails-assets-jquery-infinite-scroll', source: 'https://rails-assets.org'
+  gem 'rails-assets-jQuery'
+  gem 'rails-assets-jquery-infinite-scroll'
+  gem 'rails-assets-wookmark'
 end
