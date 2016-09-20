@@ -11,6 +11,15 @@ class Pin < ApplicationRecord
     integer :board_id
   end
 
+  def self.my_pins(board_id)
+    self.where(board_id: board_id)
+  end
+
+  def self.board_owner(board_user_id)
+    User.find_by id: board_user_id
+  end
+
+
   def self.search_pin(search_key)
     @search = self.search do
       fulltext "#{search_key}"
