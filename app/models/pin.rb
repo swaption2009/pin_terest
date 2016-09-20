@@ -3,4 +3,6 @@ class Pin < ApplicationRecord
   friendly_id :name, use: :slugged
 
   belongs_to :board
+
+  paginates_per 10
 end

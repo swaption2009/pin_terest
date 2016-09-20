@@ -51,3 +51,9 @@ gem 'devise'
 gem 'friendly_id'
 gem 'carrierwave'
 gem 'rmagick'
+gem 'kaminari'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jQuery', source: 'https://rails-assets.org'
+  gem 'rails-assets-jquery-infinite-scroll', source: 'https://rails-assets.org'
+end
