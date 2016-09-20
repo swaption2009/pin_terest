@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery-infinite-scroll
+//= require jquery.facebox
 //= require jquery
 //= require jquery_ujs
 //= require jquery-wookmark

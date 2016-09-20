@@ -135,6 +135,8 @@ GEM
     rails-assets-jQuery (3.1.0)
     rails-assets-jquery (1.12.4)
     rails-assets-jquery-infinite-scroll (2.1.0)
+    rails-assets-jquery.facebox (1.4.1)
+      rails-assets-jquery (>= 1.4.2)
     rails-assets-magnific-popup (1.0.1)
       rails-assets-jquery (>= 1.8.0)
     rails-assets-normalize.css (3.0.3)
@@ -231,6 +233,7 @@ DEPENDENCIES
   rails (~> 5.0.0, >= 5.0.0.1)
   rails-assets-jQuery!
   rails-assets-jquery-infinite-scroll!
+  rails-assets-jquery.facebox!
   rails-assets-wookmark!
   rmagick
   sass-rails (~> 5.0)

@@ -18,5 +18,12 @@ class Pin < ApplicationRecord
     @search.results
   end
 
+  def repin_post
+    @pin = Pin.new
+    @pin.name = self.name
+    @pin.board_id = params[:board_id]
+    @pin.image = self.image
+    @pin.save
+  end
 
 end

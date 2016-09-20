@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'home/index'
   get :search, to: 'home#search', as: 'search'
+  post 'pin_post/:id', to: 'pins#pin_post', as: 'pin_post'
 
   devise_for :users
   resources :pins

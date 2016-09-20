@@ -60,4 +60,5 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-jQuery'
   gem 'rails-assets-jquery-infinite-scroll'
   gem 'rails-assets-wookmark'
+  gem 'rails-assets-jquery.facebox'
 end
